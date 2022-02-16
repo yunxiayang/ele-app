@@ -83,10 +83,10 @@ export default {
             if(this.validatePhone()){
                 // 发送网络请求
                 this.$axios.post('/api/posts/sms_send',{
-                    sid:'',
-                    token:'',
-                    appid:'',
-                    templateid:'',
+                    // sid:'',
+                    // token:'',
+                    // appid:'',
+                    // templateid:'',
                     phone:this.phone
                 })
                 .then(res => {
